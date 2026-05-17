@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (keep CSVs local, don't track in git)
+data/processed/*.csv
+data/processed/*.parquet
+# NOTE: data/raw/*.csv are excluded too — provide separately
+data/raw/*.csv
+
+# Outputs
+outputs/models/*.joblib
+outputs/figures/*.png
+outputs/profiles/*.csv
+outputs/profiles/*.pdf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
